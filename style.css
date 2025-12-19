@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;;
+
+}
+
+button {
+    border-radius: 60px;
+    color: aliceblue;
+    background-color: rgb(0, 133, 60);
+    border: none;
+    padding: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(0, 100, 45);
+}
+
+.setorVerde {
+    position: fixed;
+    top: 100%;
+    right: -500px;
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(0, 133, 60);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.copao {
+    position: fixed;
+    right: 10px;
+    z-index: 2;
+    width: 450px;
+    top: 200px;
+}
+
+.logo {
+    width: 50px;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 3;
+
+}
+
+.botaoMenu {
+    width: 90px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.botaoMenu:hover {
+    transform: translateY(-20px);
+}
+
+.texto {
+    font-size: 40px;
+    color: black;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto-starbucks {
+    color: #017143;
+    font-size: 60px;
+}
+
+.paragrafo {
+    font-size: 18px;
+    color: black;
+    line-height: 1.6;
+    max-width: 600px;
+}
